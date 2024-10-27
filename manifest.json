@@ -10,8 +10,9 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://www.google.com/"],
-            "js": ["content.js"]
+            "matches": ["<all_urls>"],
+            "js": ["planck.js", "content.js"],
+            "run_at": "document_end"
         }
     ]
 }

@@ -1,7 +1,7 @@
 const planck = require('planck-js'); // Adjust according to your setup
 
 const world = planck.World({
-    gravity: planck.Vec2(0, 9.81) // Adjust gravity direction and magnitude
+    gravity: planck.Vec2(0, 0) // Adjust gravity direction and magnitude
 });
 
 function createBox(x, y) {
