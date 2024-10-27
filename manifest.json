@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Gravity Extension",
+    "description": "Applies gravity physics to webpage buttons",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "action": {
+        "default_popup": "gravity.html",
+        "default_icon": "gravity.png"
+    }
+}
