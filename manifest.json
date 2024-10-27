@@ -7,5 +7,11 @@
     "action": {
         "default_popup": "gravity.html",
         "default_icon": "gravity.png"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/"],
+            "js": ["content.js"]
+        }
+    ]
 }
